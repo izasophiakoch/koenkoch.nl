@@ -1,6 +1,7 @@
 html,
 body,
-div
+div,
+ul
 {
 	margin: 0;
 	padding: 0;
@@ -17,21 +18,106 @@ body
  background-color: #DDD;
 }
 
+.material-icons
+{
+	color: #999;
+}
+
+a
+{
+	color: #951914;
+	/* vertical-align: top; */
+	font-size: .8em;
+}
+
+a.inline-text
+{
+	vertical-align: top;
+}
+
 #logo
 {
 	width: 15%;
+	min-width: 200px;
 	max-width: 350px;
+	margin: 0 40px 0 20px;
 }
 
 #main-header
 {
 	background-color: white;
 	font-size: 1.2em;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 160px;
 }
 
 #main-header p
 {
 	display: inline-block;
+}
+
+#gegevens
+{
+	display: flex;
+	flex-grow: 100;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#gegevens li
+{
+	list-style: none;
+	line-height: 1.5em;
+}
+
+#main-nav
+{
+	background-color: #951914;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+
+#main-nav li
+{
+	display: inline-flex;
+	margin-right: 20px;
+	flex-direction: row;
+	text-align: center;
+	border-bottom: 1px solid transparent;
+}
+
+#main-nav li:hover,
+#main-nav .active
+{
+	border-color: #FFF;
+}
+
+#main-nav .active
+{
+	border-width: 2px;
+}
+
+#main-nav a
+{
+	color: #FFF;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#main-nav .sub-title
+{
+	font-size: .8em;
+	font-weight: 300;
+}
+
+#main-image
+{
+	width: 100%;
 }
 
 

@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <title>Koen Koch - Podiumbouwadvies</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <!-- BANNER BOVENIN -->
@@ -15,30 +16,34 @@
         </a>
       </div>
       <!-- eind logo -->
-
-      <!-- adres gegevens -->
-      <p>
-        Leusderweg 127
-        <br>
-        3818 AB Amersfoort
-      </p>
-      <!-- eind adres gegevens -->
-      <!-- contact gegevens -->
-      <p>
-        E-mail: <span id="email"></span>
-        <br>
-        Mobiel: <a href="tel:0031621683007">+31 621683007</a>
-      </p>
-      <!-- eind contact gegevens -->
-      <!-- overige gegevens -->
-      <p>
-        KVK: 66724945
-        <br>
-        <a href="#">Projecten en ervaring</a>
-        <br>
-        <a href="#">Algemene voorwaarden</a>
-      </p>
-      <!-- eind overige gegevens -->
+      <!-- alle gevens -->
+      <div id="gegevens">
+        <!-- adres gegevens -->
+        <ul>
+          <li>Leusderweg 127</li>
+          <li>3818 AB Amersfoort</li>
+        </ul>
+        <!-- eind adres gegevens -->
+        <!-- contact gegevens -->
+        <ul>
+          <li><i class="material-icons">&#xE0D0;</i><span id="email"></span></li>
+          <li>
+            <a href="tel:0031621683007">
+              <i class="material-icons">&#xE0CF;</i>
+              +31 621683007
+            </a>
+          </li>
+        </ul>
+        <!-- eind contact gegevens -->
+        <!-- overige gegevens -->
+        <ul>
+          <li>KVK: 66724945</li>
+          <li><a href="#">Projecten en ervaring</a></li>
+          <li><a href="#">Algemene voorwaarden</a></li>
+        </ul>
+        <!-- eind overige gegevens -->
+      </div>
+      <!-- eind alle gegevens -->
     </div>
     <!-- EIND BANNER BOVENIN -->
 
@@ -46,28 +51,28 @@
     <ul id="main-nav">
       <li>
         <a href="overheden.html">
-          Overheden
+          Overheden<br>
           <span class="sub-title">Opdrachtgevers</span>
         </a>
       </li>
 
       <li>
         <a href="gebruikers.html">
-          Gebruikers
+          Gebruikers<br>
           <span class="sub-title">Theaters</span>
         </a>
       </li>
 
       <li>
         <a href="architecten.html">
-          Architecten
+          Architecten<br>
           <span class="sub-title">Ontwerpers</span>
         </a>
       </li>
 
-      <li>
+      <li class="active">
         <a href="uitvoerders.html">
-          Uitvoerders
+          Uitvoerders<br>
           <span class="sub-title">Bouwers</span>
         </a>
       </li>
