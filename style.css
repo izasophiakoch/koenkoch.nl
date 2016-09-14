@@ -37,10 +37,10 @@ h2 a
     color: inherit;
     text-decoration: none;
     display: flex;
-    justify-content:;
     border-bottom: 1px solid #aaa;
     padding-bottom: 8px;
     margin-bottom: 10px;
+    justify-content: space-between;
     /* position: relative; */
 }
 
