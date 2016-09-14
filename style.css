@@ -1,3 +1,5 @@
+/* ------------ ALGEMENE INSTELLINGEN -------------- */
+
 html,
 body,
 div,
@@ -23,6 +25,38 @@ body
 	color: #999;
 }
 
+h2
+{
+	font-size: 1.2em;
+	margin: 0;
+}
+
+h2 a
+{
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content:;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    /* position: relative; */
+}
+
+h2 i
+{
+	display: flex !important;
+	justify-content: flex-end;
+	align-self: flex-end;
+	/* float: right; */
+}
+
+p
+{
+	text-align: justify;
+}
+
 a
 {
 	color: #951914;
@@ -34,6 +68,8 @@ a.inline-text
 {
 	vertical-align: top;
 }
+
+/* ------------ NAVIGATIE MENU BOVENIN -------------- */
 
 #logo
 {
@@ -115,9 +151,66 @@ a.inline-text
 	font-weight: 300;
 }
 
+/* ------------ CONTENT HOMEPAGE -------------- */
+
 #main-image
 {
-	width: 100%;
+	:
+	left: 20%
+	left: 2;
+	position: absolute;
+	left: 20%;
 }
 
+#home
+{
+	background-color: #000;
+}
 
+#home .tekst-content
+{
+	color: #FFF;
+	position: absolute;
+	/* width: 100%; */
+	margin-top: 0;
+	left: 0;
+}
+
+#home p
+{
+	text-align: left;
+}
+
+/* ------------ CONTENT ANDERE PAGINAS -------- */
+#content
+{
+	display: flex;
+	flex-direction: row;
+	/* background-color: #000; */
+}
+
+.tekst-content
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.img-container
+{
+	display: flex;
+	width: 50%;
+	position: relative;
+	background-color: #000;
+	align-items: flex-end;
+}
+
+.content-image {
+    :
+    : absolute
+    display: flex;
+    display: flex;
+    width: 100%;
+}
