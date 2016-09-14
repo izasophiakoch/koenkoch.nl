@@ -94,6 +94,17 @@ a.inline-text
 	display: inline-block;
 }
 
+#email
+{
+	width: 135px;
+	background-image: url("img/mail.png");
+	background-size: 100% auto;
+	background-position: 0;
+	background-repeat: no-repeat;
+	height: 22px;
+	position: absolute;
+}
+
 #gegevens
 {
 	display: flex;
@@ -149,6 +160,11 @@ a.inline-text
 {
 	font-size: .8em;
 	font-weight: 300;
+}
+
+.kvk
+{
+	font-size: .8em;
 }
 
 /* ------------ CONTENT HOMEPAGE -------------- */
